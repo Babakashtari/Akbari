@@ -1,0 +1,33 @@
+@font-face {
+    src: url(../FONTS/IRANSansWeb_Bold.ttf);
+    font-family: "iranSans";
+}
+@font-face {
+    src: url(../FONTS/yekannumbers-regular.woff);
+    font-family: "Yekan";
+}
+.Yekan {
+    font-family: "Yekan";
+    font-weight: bold;
+}
+.iranSans {
+    font-family: "iranSans";
+}
+input {
+    font-family: "iranSans";
+}
+input::-webkit-input-placeholder {
+    font-family: "iranSans";
+}
+input::-moz-placeholder {
+    font-family: "iranSans";
+}
+input:-ms-input-placeholder {
+    font-family: "iranSans";
+}
+input::-ms-input-placeholder {
+    font-family: "iranSans";
+}
+input::placeholder {
+    font-family: "iranSans";
+}
