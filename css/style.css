@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 body {
@@ -28,7 +28,7 @@ body {
 }
 
 .navbar a.active {
-  background-color: #4CAF50;
+  background-color: #4caf50;
 }
 
 @media screen and (max-width: 500px) {
@@ -95,10 +95,9 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 6px;
-
 }
 
-.topnav input[type=text] {
+.topnav input[type="text"] {
   padding: 6px;
   margin-top: 8px;
   width: 500px;
@@ -129,7 +128,7 @@ body {
   }
 
   .topnav a,
-  .topnav input[type=text],
+  .topnav input[type="text"],
   .topnav .search-container button {
     float: none;
     display: block;
@@ -139,13 +138,11 @@ body {
     padding: 14px;
   }
 
-  .topnav input[type=text] {
+  .topnav input[type="text"] {
     border: 1px solid rgb(255, 255, 255);
     border-radius: 3px;
   }
 }
-
-
 
 .centeringh1 {
   text-align: center;
@@ -166,7 +163,7 @@ body {
 .footer-bs {
   background-color: #3c3d41;
   padding: 60px 40px;
-  color: rgba(255, 255, 255, 1.00);
+  color: rgba(255, 255, 255, 1);
   margin-bottom: 20px;
   border-bottom-right-radius: 6px;
   border-top-left-radius: 0px;
@@ -192,7 +189,7 @@ body {
 
 .footer-bs .footer-brand p {
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.70);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .footer-bs .footer-nav ul.pages {
@@ -205,13 +202,13 @@ body {
 }
 
 .footer-bs .footer-nav ul.pages a {
-  color: rgba(255, 255, 255, 1.00);
+  color: rgba(255, 255, 255, 1);
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .footer-bs .footer-nav ul.pages a:hover {
-  color: rgba(255, 255, 255, 0.80);
+  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
 }
 
@@ -232,11 +229,11 @@ body {
 }
 
 .footer-bs .footer-nav ul.list a {
-  color: rgba(255, 255, 255, 0.80);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .footer-bs .footer-nav ul.list a:hover {
-  color: rgba(255, 255, 255, 0.60);
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
 
@@ -256,11 +253,11 @@ body {
 }
 
 .footer-bs .footer-social a {
-  color: rgba(255, 255, 255, 1.00);
+  color: rgba(255, 255, 255, 1);
 }
 
 .footer-bs .footer-social a:hover {
-  color: rgba(255, 255, 255, 0.80);
+  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
 }
 
@@ -273,15 +270,14 @@ body {
 
 .footer-bs .footer-ns p {
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.70);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 @media (min-width: 768px) {
-
   .footer-bs .footer-nav,
   .footer-bs .footer-social,
   .footer-bs .footer-ns {
-    border-left: solid 1px rgba(255, 255, 255, 0.10);
+    border-left: solid 1px rgba(255, 255, 255, 0.1);
   }
 }
 
@@ -300,13 +296,13 @@ body {
 .address {
   text-align: center;
   background-color: #3c3d41;
-  color: rgba(255, 255, 255, 1.00);
+  color: rgba(255, 255, 255, 1);
   margin-top: -50px;
 }
 
 .centeringpp {
   text-align: center;
-  color: rgba(255, 255, 255, 1.00);
+  color: rgba(255, 255, 255, 1);
 }
 
 .margining {
@@ -315,4 +311,278 @@ body {
 
 .comecloser {
   margin-left: -20px;
+}
+
+/* carousel: */
+/* carousel header */
+#carouselId {
+  position: relative;
+}
+#carouselId > div.header {
+  position: absolute;
+  z-index: 2000;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+}
+#carouselId > div.header > ul {
+  list-style-type: none !important;
+  direction: rtl;
+  border-radius: 5px;
+  background-color: rgba(0, 255, 255, 0.2);
+}
+#carouselId > div.header > ul > li > a {
+  font-size: 2rem;
+  text-decoration: none;
+  display: block;
+  color: white;
+  text-shadow: 3px 3px 8px black, -3px -3px 8px black;
+  border-radius: 5px;
+}
+#carouselId > div.header > ul > li > a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#carouselId::after {
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(rgba(247, 211, 242, 0.5), rgba(189, 204, 235, 0.5));
+}
+
+.carousel-item > img {
+  width: 100%;
+  height: 600px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  z-index: 10;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  border-radius: 50%;
+  color: white !important;
+  padding: 2rem !important;
+}
+
+.carousel-caption {
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+}
+
+.carousel-caption > h3 {
+  direction: rtl;
+  position: absolute;
+  top: 30%;
+  right: 15%;
+  font-size: 1.5rem;
+  color: yellow;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1rem;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  opacity: 0;
+}
+
+h3#first {
+  -webkit-animation-name: drag_from_left;
+  animation-name: drag_from_left;
+}
+
+h3#second {
+  -webkit-animation-name: appear;
+  animation-name: appear;
+}
+
+h3#third {
+  -webkit-animation-name: drag_from_right;
+  animation-name: drag_from_right;
+}
+
+@-webkit-keyframes drag_from_left {
+  from {
+    opacity: 0;
+    right: 100%;
+  }
+
+  to {
+    opacity: 1;
+    right: 15%;
+  }
+}
+
+@keyframes drag_from_left {
+  from {
+    opacity: 0;
+    right: 100%;
+  }
+
+  to {
+    opacity: 1;
+    right: 15%;
+  }
+}
+
+@-webkit-keyframes appear {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes drag_from_right {
+  from {
+    opacity: 0;
+    right: -100%;
+  }
+
+  to {
+    opacity: 1;
+    right: 15%;
+  }
+}
+
+@keyframes drag_from_right {
+  from {
+    opacity: 0;
+    right: -100%;
+  }
+
+  to {
+    opacity: 1;
+    right: 15%;
+  }
+}
+img.rotate-img {
+  transform: rotateY(180deg);
+}
+.carousel-caption > h5 {
+  direction: rtl;
+  position: absolute;
+  top: 50%;
+  right: 15%;
+  color: white;
+  text-shadow: 1px 1px 3px black, -1px -1px 3px black;
+  opacity: 0;
+  -webkit-animation-name: appear2;
+  animation-name: appear2;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+@-webkit-keyframes appear2 {
+  from {
+    opacity: 0;
+    right: 100%;
+  }
+
+  to {
+    opacity: 1;
+    right: 15%;
+  }
+}
+
+@keyframes appear2 {
+  from {
+    opacity: 0;
+    right: 100%;
+  }
+
+  to {
+    opacity: 1;
+    right: 15%;
+  }
+}
+
+.carousel-caption > a {
+  border-radius: 5px;
+  direction: rtl;
+  position: absolute;
+  top: 70%;
+  right: 15%;
+  opacity: 0;
+  background-color: gray;
+  -webkit-animation-name: link_appear_with_delay;
+  animation-name: link_appear_with_delay;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+@-webkit-keyframes link_appear_with_delay {
+  from {
+    opacity: 0;
+    right: 30%;
+  }
+
+  to {
+    opacity: 1;
+    right: 15%;
+  }
+}
+
+@keyframes link_appear_with_delay {
+  from {
+    opacity: 0;
+    right: 30%;
+  }
+
+  to {
+    opacity: 1;
+    right: 15%;
+  }
+}
+@media screen and (max-width: 863px) {
+  #carouselId > div.header > ul > li > a {
+    font-size: 1.5rem;
+  }
+  #carouselId > div.header > ul > li > a > i {
+    display: none;
+  }
 }
