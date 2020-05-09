@@ -1,3 +1,6 @@
+<?php require 'php/swiper_sport.php' ?>
+<?php require 'php/swiper_women.php' ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -91,52 +94,21 @@
             </a>
           </div>
 
-<section class="swipers">
+<section class="swiper sport">
   <h1 class="direction text-center py-2">مانتو دخترانه و اسپرت:</h1>
-  <!-- Swiper -->
-  <div class="swiper-container">
-    <div class="swiper-wrapper ">
-      <div class="swiper-slide ">
-        <img class="" src="img/index/swipper/dokhtarune/girlish1.jpg" alt="مانتو دخترانه و اسپرت">
-      </div>
-      <div class="swiper-slide ">
-        <img class="" src="img/index/swipper/dokhtarune/girlish2.jpg" alt="مانتو دخترانه و اسپرت">
-      </div>
-      <div class="swiper-slide ">
-        <img class="" src="img/index/swipper/dokhtarune/girlish3.jpg" alt="مانتو دخترانه و اسپرت">
-      </div>
-      <div class="swiper-slide ">
-        <img class="" src="img/index/swipper/dokhtarune/girlish4.jpg" alt="مانتو دخترانه و اسپرت">
-      </div>
-      <div class="swiper-slide ">
-        <img class="" src="img/index/swipper/dokhtarune/girlish10.jpg" alt="مانتو دخترانه و اسپرت">
-      </div>
-      <div class="swiper-slide ">
-        <img class="" src="img/index/swipper/dokhtarune/girlish6.jpg" alt="مانتو دخترانه و اسپرت">
-      </div>
-      <div class="swiper-slide ">
-        <img class="" src="img/index/swipper/dokhtarune/girlish7.jpg" alt="مانتو دخترانه و اسپرت">
-      </div>
-      <div class="swiper-slide ">
-        <img class="" src="img/index/swipper/dokhtarune/girlish11.jpeg" alt="مانتو دخترانه و اسپرت">
-      </div>
-      <div class="swiper-slide ">
-        <img class="" src="img/index/swipper/dokhtarune/girlish9.jpeg" alt="مانتو دخترانه و اسپرت">
-      </div>
-    </div>
-    <!-- Add Pagination -->
-    <div class="swiper-pagination"></div>
-    <!-- Add Arrows -->
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-  </div>
+  <?php swiper_sport(); ?>
+</section>
+
+<section class="swiper women">
+  <h1 class="text-center ">مجلسی</h1>
+  <?php swiper_women(); ?>
+</section>
+<section class="swiper-administrative">
+  <h1 class="text-center ">اداری</h1>
+
 </section>
 
 
-
-    <h1 class="text-center ">مجلسی</h1>
-
-    <h1 class="text-center ">اداری</h1>
 
 
 
@@ -218,28 +190,11 @@
     </div>
   </div>
   <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  <?php swiper_load_js_sport(); ?>
+  <?php swiper_load_js_women(); ?>
   <script src="JS/swiper.js"></script>
   <script src="JS/jquery.min.js"></script>
   <script src="JS/bootstrap.min.js"></script>
-  <script>
-    var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 4,
-      spaceBetween: 20,
-      centeredSlides:true,
-      grabCursor:true,
-      slidesPerGroup: 3,
-      loop: true,
-      loopFillGroupWithBlank: true,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
-    </script>
 </body>
 
 </html>

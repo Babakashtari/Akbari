@@ -1,27 +1,45 @@
-.swiper-container {
-    height: 400px;
-    padding: 0 2rem 4rem 2rem;
-    /* overflow: visible; */
+.sport .swiper-container {
+  height: 400px;
+  padding: 0 2rem 4rem 2rem;
+  /* overflow: visible; */
 }
 
-.swiper-wrapper {
-    align-items: center;
+.sport .swiper-wrapper {
+  align-items: center;
 }
 
-.swiper-slide {
-    border-radius: 7px;
+.sport .swiper-slide {
+  border-radius: 7px;
 }
 
-.swiper-slide img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: contain;
-    object-fit: contain;
-    border-radius: 10px;
-    box-shadow: 1px 1px 3px gray
+.sport .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px gray;
 }
-
-/* .swiper-slide-active {
-    transform: scale(1.5);
-    transform: 0.5s;
-} */
+section.women {
+  width: 100%;
+  overflow: hidden;
+}
+section.women .swiper-container {
+  position: relative;
+  width: 25%;
+  height: 400px;
+  left: 0;
+  right: 0;
+}
+section.women .swwiper-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 3px 3px 3px black;
+  border: 3px solid black;
+  background-position: center;
+  background-size: contain;
+  box-sizing: border-box;
+}
