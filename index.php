@@ -9,7 +9,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- swiper --><link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
   <!-- font awesone: --><link rel="stylesheet" href="CSS/fontawesome.min.css">
-  <!-- bootstrap: --><link rel="stylesheet" href="CSS/bootstrap.min.css.map"><link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="CSS/bootstrap.min.css.map"><link rel="stylesheet" href="CSS/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <!-- normalizer: --><link rel="stylesheet" href="CSS/Normalizer.css">
   <link rel="stylesheet" href="CSS/swiper.css">
   <link rel="stylesheet" href="CSS/font_imports.css">
@@ -93,32 +96,29 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
-
+<div class="container text-justify bgccolor direction py-5">
+  <h1 class="text-center">چرا صوفی تک؟</h1>
+  <P class="text-justify direction ">
+        تولیدی صوفی تک و ملیکا قادر است تمامی سفارشات مانتو و لباس زنانه اسپرت، مجلسی و اداری را در رنگ بندی های متنوع و انواع پارچه تولید کند. صوفی تک همچنین قادر است قبل از تولید تیراژ، تا چند مدل به صورت نمونه تولید و در اختیار مدیران و مسئولين محترم قرار دهد تا بعد از تاييد نهائی، مدل مورد نظر را توليد انبوه كند. جهت سفارش مي توانيد با شماره <span>۰۹۱۲۳۳۰۳۰۶۳</span> آقای اکبری تماس بگيريد و جهت پرو لباس فرم مدارس،‌ بيمارستان ها و ساير نهاد ها، كارمندان و دانش آموزان محترم مي توانند به تک فروشی های شرکت واقع در ميدان هفت تير، جنب مترو، مانتو پوشاك صوفی تک مراجعه کنند.
+      </P>
+</div>
 <section class="swiper sport">
   <h1 class="direction text-center py-2">مانتو دخترانه و اسپرت:</h1>
   <?php swiper_sport(); ?>
 </section>
 
 <section class="swiper women">
-  <h1 class="text-center ">مجلسی</h1>
+  <h1 class="text-center ">مانتو مجلسی:</h1>
   <?php swiper_women(); ?>
 </section>
 <section class="swiper-administrative">
   <h1 class="text-center ">اداری</h1>
-
 </section>
 
-
-
-
-
-    <h1 class="text-center ">اماده قرار داد با شرکت ها جهت دوخت</h1>
-    <div class="container text-center bgccolor">
-      <P class="text-center ">
-        تولیدی مانتو و البسه بانوان صوفی تک و ملیکا با بیش از 30 سال تجربه کار حرفه ای در صنعت پوشاک، پیشرو خدمات و مشاوره در حوزه یونیفرم و لباس فرم مدارس و مراکز دولتی است. صوفی تک ملیکا  10 چرخ خیاطی و بیش از 50 کارمند مزدی دوز دارد که در تولیدی فعالیت می کنند و قادرند  روزانه بیش از 150 دست روپوش و لباس فرم جهت مدارس و نهاد های دولتی و خصوصی تولید کنند. صوفی تک ملیکا دو تک فروشی واقع در تهران دارد که یکی در هفت تیر و دیگری خیابان جمهوری واقع شده است. در این راستا صوفی تک آماده همکاری با مدیران مدارس جهت تولید لباس فرم دانش آموزی و یا مسئولین خرید بیمارستان ها جهت تولید یونیفرم کادر پزشکی و خدماتی و همچنین تک فروشی های سراسر ایران جهت عرضه مانتو و شلوار دوخته شده در سایزبندی های متنوع از 38 الی 60 می باشد. 
-      </P>
-      <P class="text-center ">
-        تولیدی صوفی تک و ملیکا قادر است تمامی سفارشات مانتو و لباس زنانه اسپرت، مجلسی و اداری را در رنگ بندی های متنوع و انواع پارچه تولید کند.
+    <h1 class="text-center ">آماده قرار داد با شرکت ها جهت دوخت</h1>
+    <div class="container text-justify bgccolor direction">
+      <P class=" ">
+        تولیدی مانتو و البسه بانوان صوفی تک و ملیکا با بیش از ۳۰ سال تجربه کار حرفه ای در صنعت پوشاک، پیشرو خدمات و مشاوره در حوزه یونیفرم و لباس فرم مدارس و مراکز دولتی است. صوفی تک ملیکا ۱۰ چرخ خیاطی و بیش از ۵۰ کارمند مزدی دوز دارد که در تولیدی فعالیت می کنند و قادرند  روزانه بیش از ۱۵۰ دست روپوش و لباس فرم جهت مدارس و نهاد های دولتی و خصوصی تولید کنند. صوفی تک ملیکا دو تک فروشی واقع در تهران دارد که یکی در هفت تیر و دیگری خیابان جمهوری واقع شده است. در این راستا صوفی تک آماده همکاری با مدیران مدارس جهت تولید لباس فرم دانش آموزی و یا مسئولین خرید بیمارستان ها جهت تولید یونیفرم کادر پزشکی و خدماتی و همچنین تک فروشی های سراسر ایران جهت عرضه مانتو و شلوار دوخته شده در سایزبندی های متنوع از ۳۸ الی ۶۰ می باشد. 
       </P>
     </div>
 

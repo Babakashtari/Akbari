@@ -52,7 +52,7 @@ function swiper_load_js_sport(){
       loopFillGroupWithBlank: true,
       autoplay: {
         delay: 2500,
-        disableOnInteraction: false,
+        disableOnInteraction: true,
       },
       pagination: {
         el: '.sport',

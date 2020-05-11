@@ -452,3 +452,6 @@ img.rotate-img {
     line-height: 2.5rem;
   }
 }
+main > div > p {
+  line-height: 2rem;
+}

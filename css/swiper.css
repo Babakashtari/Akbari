@@ -24,12 +24,19 @@ section.women {
   width: 100%;
   overflow: hidden;
 }
+section.women .women-prev {
+  left: -15%;
+}
+section.women .women-next {
+  right: -15%;
+}
 section.women .swiper-container {
   position: relative;
-  width: 25%;
-  height: 400px;
+  width: 30%;
+  height: 650px;
   left: 0;
   right: 0;
+  padding-bottom: 4rem;
 }
 section.women .swwiper-slide {
   position: absolute;
@@ -37,9 +44,8 @@ section.women .swwiper-slide {
   left: 0;
   right: 0;
   bottom: 0;
+  background-size: 100% 100%;
   box-shadow: 3px 3px 3px black;
   border: 3px solid black;
-  background-position: center;
-  background-size: contain;
   box-sizing: border-box;
 }
