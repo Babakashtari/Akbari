@@ -109,11 +109,7 @@
 </section>
 
 <section class="swiper women">
-<<<<<<< HEAD
   <h1 class="text-center ">مانتو زنانه مجلسی:</h1>
-=======
-  <h1 class="text-center ">مانتو مجلسی:</h1>
->>>>>>> 2df69d3a101c10b82fa40c9e1b8c48d675fe2d27
   <?php swiper_women(); ?>
 </section>
 <section class="swiper-administrative">
