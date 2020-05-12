@@ -100,7 +100,7 @@
 </section>
 
 <section class="swiper women">
-  <h1 class="text-center ">مجلسی</h1>
+  <h1 class="text-center ">مانتو زنانه مجلسی:</h1>
   <?php swiper_women(); ?>
 </section>
 <section class="swiper-administrative">
