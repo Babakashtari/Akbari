@@ -145,6 +145,9 @@
 .margining {
   margin-top: 30px;
 }
+.line-height {
+  line-height: 3rem;
+}
 
 /* carousel: */
 /* carousel header */
@@ -454,4 +457,10 @@ img.rotate-img {
 }
 main > div > p {
   line-height: 2rem;
+}
+footer form > button > span {
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: 3px solid black;
 }
