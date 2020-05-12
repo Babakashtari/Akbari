@@ -39,7 +39,8 @@ function swiper_load_js_women(){
         },
         autoplay: {
           delay: 2500,
-          disableOnInteraction: false,
+          disableOnInteraction: true,
+          speed: '1200',
         },  
       });
     </script>            

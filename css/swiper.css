@@ -29,17 +29,43 @@ section.women {
   width: 100%;
   overflow: hidden;
 }
+<<<<<<< HEAD
 
 section.women .swiper-container {
   position: relative;
   width: 25%;
   height: 500px;
+=======
+section.women .women-prev {
+  left: -15%;
+}
+section.women .women-next {
+  right: -15%;
+}
+section.women .swiper-container {
+  position: relative;
+  width: 30%;
+  height: 650px;
+>>>>>>> 2df69d3a101c10b82fa40c9e1b8c48d675fe2d27
   left: 0;
   right: 0;
+  padding-bottom: 4rem;
 }
+<<<<<<< HEAD
 
 section.women .swiper-slide {
   /* box-shadow: 3px 3px 3px gray, -3px -3px 3px gray; */
   background-size: 100% 100%;
+=======
+section.women .swwiper-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: 100% 100%;
+  box-shadow: 3px 3px 3px black;
+  border: 3px solid black;
+>>>>>>> 2df69d3a101c10b82fa40c9e1b8c48d675fe2d27
   box-sizing: border-box;
 }
