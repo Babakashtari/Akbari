@@ -29,17 +29,17 @@
             <div class="header m-0">
               <ul class="m-0 p-0 d-flex flex-row-reverse row ">
                 <li class="col-2 text-center p-0">      
-                  <a class=" p-2 p-lg-4" href="#">خانه<i class="fa fa-fw fa-home"></i></a>
+                  <a class="py-5" href="#">خانه<i class="fa fa-fw fa-home"></i></a>
                 </li>
                 <li class="col-3 text-center p-0">
-                  <a class=" p-2 p-lg-4" href="#">درباره ما<i class="fa fa-fw fa-info"></i></a>
+                  <a class="py-5" href="#">درباره ما<i class="fa fa-fw fa-info"></i></a>
                 </li>
                 <li class="col-3 text-center p-0">
-                  <a class=" p-2 p-lg-4" href="#">محصولات<i class="fa fa-fw fa-shopping-cart"></i></a>
+                  <a class="py-5" href="#">محصولات<i class="fa fa-fw fa-shopping-cart"></i></a>
                 </li>
                 <li class="col-4 text-center p-0">
-                  <a class="p-2 p-lg-4" href="index.html">تولیدی صوفی تک و ملیکا
-                    <!-- <img  class=" border border-primary" src="img/6.svg" alt="logo"> -->
+                  <a class="logo-container" href="index.php">
+                    <img  class="logo" src="img/logo/صوفی تک.png" alt="logo" width="15%" height="auto">
                   </a>
                 </li>
               </ul>
@@ -54,7 +54,7 @@
               <div class="carousel-item active">
                 <img class="rotate-img" src="img/index/photoslider/photo_slider2.jpg" alt="لباس دخترانه">
                 <div class="carousel-caption">
-                  <h3 class="px-3 py-2" id="first"> تولید و پخش انواع پوشاک دخترانه</h3>
+                  <h3 class="p-4" id="first"> تولید و پخش انواع پوشاک دخترانه</h3>
                   <h5 class="col-8 col-sm-12 py-2">روپوش، سارافون، شال و روسری دخترانه در طرح ها و رنگ های متنوع</h5>
                   <!-- لطفا این لینکها را به سایت هایی وصل کنید که در مورد این نوع نقاشی توضیح می دهند. برای سئو خوب است -->
                   <a class="text-light px-5 py-2" href="#">بیشتر بخوانید</a>
@@ -63,7 +63,7 @@
               <div class="carousel-item">
                 <img src="img/index/photoslider/photo_slider5.jpg" alt="لباس زنانه">
                 <div class="carousel-caption">
-                  <h3 class="px-3 py-2" id="second">انواع پوشاک زنانه و مجلسی</h3>
+                  <h3 class="p-4" id="second">انواع پوشاک زنانه و مجلسی</h3>
                   <h5 class="col-8 col-sm-12 py-2">انواع روپوش زنانه شیک مناسب برای محافل و مجالس رسمی و غیر رسمی</h5>
                   <!-- لطفا این لینکها را به سایت هایی وصل کنید که در مورد این نوع نقاشی توضیح می دهند. برای سئو خوب است -->
                   <a class="text-light px-5 py-2" href="#">بیشتر بخوانید</a>
@@ -72,7 +72,7 @@
               <div class="carousel-item">
                 <img src="img/index/photoslider/photo_slider7.jpg" alt="یونیفرم و لباس اداری">
                 <div class="carousel-caption">
-                  <h3 class="px-3 py-2" id="third">انواع یونیفرم و لباس اداری</h3>
+                  <h3 class="p-4" id="third">انواع یونیفرم و لباس اداری</h3>
                   <h5 class="col-8 col-sm-12 py-2">تولید انواع لباس کار و یونیفرم اداری مناسب سازمان ها و مراکز دولتی و غیر دولتی</h5>
                   <!-- لطفا این لینکها را به سایت هایی وصل کنید که در مورد این نوع نقاشی توضیح می دهند. برای سئو خوب است -->
                   <a class="text-light px-5 py-2" href="#">بیشتر بخوانید</a>
@@ -81,7 +81,7 @@
               <div class="carousel-item">
                 <img src="img/index/photoslider/photo_slider4.jpg" alt="چادر و لباس اسلامی">
                 <div class="carousel-caption">
-                  <h3 class="px-3 py-2" id="third">انواع چادر و البسه اسلامی</h3>
+                  <h3 class="p-4" id="third">انواع چادر و البسه اسلامی</h3>
                   <h5 class="col-8 col-sm-12 py-2">تولید انواع چادر عربی و ایرانی، شيک و مناسب برای تمامی سنین</h5>
                   <!-- لطفا این لینکها را به سایت هایی وصل کنید که در مورد این نوع نقاشی توضیح می دهند. برای سئو خوب است -->
                   <a class="text-light px-5 py-2" href="#">بیشتر بخوانید</a>
