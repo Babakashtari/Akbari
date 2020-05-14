@@ -116,7 +116,6 @@
 }
 
 @media (min-width: 768px) {
-
   .footer-bs .footer-nav,
   .footer-bs .footer-social,
   .footer-bs .footer-ns {
@@ -163,7 +162,7 @@ div#carouselId {
   top: 0;
 } */
 
-#carouselId>div.header {
+#carouselId > div.header {
   position: absolute;
   z-index: 2000;
   /* top: -50%; */
@@ -173,20 +172,20 @@ div#carouselId {
   transition: 750ms;
 }
 
-#carouselId>div.header>ul {
+#carouselId > div.header > ul {
   list-style-type: none !important;
   direction: rtl;
   border-radius: 5px;
   background-color: rgba(112, 112, 112, 0.5);
 }
 
-#carouselId>div.header>ul>li {
+#carouselId > div.header > ul > li {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#carouselId>div.header>ul>li>a {
+#carouselId > div.header > ul > li > a {
   font-size: 1.75rem;
   display: inline-block;
   text-decoration: none;
@@ -196,11 +195,11 @@ div#carouselId {
   border-radius: 5px;
 }
 
-#carouselId>div.header>ul>li>a:not(.logo-container) {
+#carouselId > div.header > ul > li > a:not(.logo-container) {
   padding: 1rem 0;
 }
 
-#carouselId>div.header>ul>li>a:hover:not(.logo-container) {
+#carouselId > div.header > ul > li > a:hover:not(.logo-container) {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -218,7 +217,7 @@ div#carouselId {
   box-shadow: 1px 1px 30px black;
 }
 
-.carousel-item>img {
+.carousel-item > img {
   width: 100%;
   height: 600px;
   -o-object-fit: cover;
@@ -244,7 +243,7 @@ div#carouselId {
   bottom: 0 !important;
 }
 
-.carousel-caption>h3 {
+.carousel-caption > h3 {
   direction: rtl;
   position: absolute;
   top: 30%;
@@ -357,7 +356,7 @@ img.rotate-img {
   transform: rotateY(180deg);
 }
 
-.carousel-caption>h5 {
+.carousel-caption > h5 {
   direction: rtl;
   position: absolute;
   top: 50%;
@@ -403,7 +402,7 @@ img.rotate-img {
   }
 }
 
-.carousel-caption>a {
+.carousel-caption > a {
   border-radius: 5px;
   direction: rtl;
   position: absolute;
@@ -448,35 +447,33 @@ img.rotate-img {
 }
 
 @media screen and (max-width: 1051px) {
-  div#carouselId>div.header>ul>li>a {
+  div#carouselId > div.header > ul > li > a {
     font-size: 1.5rem;
   }
 }
 
 @media screen and (max-width: 863px) {
-
-  div#carouselId>div.header>ul>li>a,
-  .carousel-caption>h3 {
+  div#carouselId > div.header > ul > li > a,
+  .carousel-caption > h3 {
     font-size: 1rem;
   }
-
-  .carousel-caption>h5 {
+  .carousel-caption > h5 {
     font-size: 1.5rem;
   }
 }
 
 @media screen and (max-width: 576px) {
-  .carousel-caption>h5 {
+  .carousel-caption > h5 {
     /* font-size: 1rem; */
     line-height: 2.5rem;
   }
 }
 
-main>div>p {
+main > div > p {
   line-height: 2rem;
 }
 
-footer form>button>span {
+footer form > button > span {
   border-radius: 5px;
   padding: 0.5rem;
   font-size: 2rem;

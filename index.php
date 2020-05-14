@@ -124,7 +124,6 @@
     </div>
 
   </main>
-  <div class="container-fluid m-0 p-0">
     <!----------- Footer ------------>
     <footer class="footer-bs">
       <div class="row">
@@ -183,12 +182,10 @@
     </footer>
     <div class="container-fluid address">
       <i class="fas fa-address-book"></i>
-      <p class="centeringpp">سه راه جمهوری چهار راه امیر اکرم خیابان صبای جنوبی ساختمان آراد طبقه ی پنج واحد هفت
-      </p>
+      <p class="centeringpp">سه راه جمهوری چهار راه امیر اکرم خیابان صبای جنوبی ساختمان آراد طبقه ی پنج واحد هفت</p>
       <i class="fas fa-phone-alt"></i>
       <p class="centeringpp">66496437</p>
     </div>
-  </div>
   <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
   <?php swiper_load_js_sport(); ?>
   <?php swiper_load_js_women(); ?>
